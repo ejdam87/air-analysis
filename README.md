@@ -13,7 +13,7 @@ This is an MCU-driven station for the air quality analysis. It measures temperat
 ## Software requirements
 
 The firmware for the MCU was written in C++ using Arduino libraries for ESP8266. Beyond the core libraries, I used:
-- `DHTesp` libary for communication with DHT22 (proprietary one-wire like protocol)
+- `DHTesp` library for communication with DHT22 (proprietary one-wire like protocol)
 - `LiquidCrystal` library for I2C communicaton with LCD display
 
 ![Photo of the station](device.jpg)
