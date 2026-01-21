@@ -88,5 +88,5 @@ void loop()
   }
   read_co();
   print_values();
-  delay(2000);  // DHT22 needs at least 2 seconds
+  delay(45 * 1000);  // DHT22 needs at least 2 seconds
 }
